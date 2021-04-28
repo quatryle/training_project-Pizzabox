@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAPizza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<APizza xsi:type="MargheritaPizza">
+    <pName>Custom</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="MargheritaPizza">
+    <pName>Margherita Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="PepperoniPizza">
+    <pName>Pepperoni Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Pepperoni</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="SausagePizza">
+    <pName>Sausage Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Sausage</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="ChickenPizza">
+    <pName>Chicken Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Alfredo Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Chicken</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="DeepDishPizza">
+    <pName>Deep Dish Pizza</pName>
+    <Crust>DeepDish</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="ThinCrustPizza">
+    <pName>Thin Crust Pizza</pName>
+    <Crust>ThinCrust</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="MeatPizza">
+    <pName>Meat Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Pepperoni</string>
+      <string>Sausage</string>
+      <string>Bacon</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="VeggiePizza">
+    <pName>Veggie Pizza</pName>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Tomato</string>
+      <string>Onion</string>
+      <string>Pepper</string>
+      <string>Olive</string>
+      <string>Mushroom</string>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="FourCheesePizza">
+    <pName>Four Cheese Pizza</pName>
+    <Crust>Plain</Crust>
+    <Toppings>
+      <string>Tomato Sauce</string>
+      <string>Mozzarella Cheese</string>
+      <string>Cheddar Cheese</string>
+      <string>Parmesan Cheese</string>
+      <string>Provalone Cheese</string>
+    </Toppings>
+  </APizza>
+</ArrayOfAPizza>
