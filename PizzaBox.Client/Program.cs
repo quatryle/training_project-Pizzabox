@@ -100,7 +100,7 @@ namespace PizzaBox.Client
       _orderRepository.Create(order);
       var orders = _context.Orders.Where(o => o.Customer.Name == order.Customer.Name);
       Console.WriteLine($"Your total is ${order.TotalCost():C2}");
-      Console.WriteLine(orders);
+      //Console.WriteLine(orders);
 
     }
 

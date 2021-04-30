@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using PizzaBox.Domain;
+using PizzaBox.Domain.Models;
 using PizzaBox.Domain.Abstracts;
 using PizzaBox.Domain.Models.Stores;
 using Xunit;
@@ -67,29 +68,9 @@ namespace PizzaBox.Testing.Tests
       Assert.NotNull(storeName);
     }
     [Fact]
-    public void Test_OrderCost()
-    {
-      Domain.Models.Order sut = new Domain.Models.Order();
-      Assert.NotNull(sut.TotalCost());
-    }
-    [Theory]
-    [MemberData(nameof(values))]
-    public void Test_CustomerName(PizzaBox.Domain.Models.Customer cust)
-    {
-      Assert.NotNull(cust.Name);
-      Assert.Equal(cust.Name, cust.ToString());
-    }
-    [Theory]
-    [MemberData(nameof(values))]
-    public void Test_newPizza(APizza pizza)
-    {
-      Domain.Models.Order sut = new Domain.Models.Order();
-      sut.customPizza();
-    }
-    [Fact]
     public void Test_Crust()
     {
-      // Domain.Models.Crust sut;
+      Crust sut;
       //Assert.True((sut.GetType).IsAssignableFrom(AComponent));
     }
     //test if crust is acomponent
